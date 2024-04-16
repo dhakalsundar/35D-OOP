@@ -63,6 +63,27 @@ public class operatorClass {
           System.out.println(output);
           System.out.println(numberOutput);
 
+              
+    //1. WAP to print whether a variable is grater or equal to 18  Complete the task1 using ternary operator
+
+    int wVar =12;
+    boolean expression = wVar >= 18;
+    System.out.println(expression ? "True":"false");
+    //2.WAP to print simple interest from variable
+    //Make 3 variable for amount ,time and rate and save the calculation into a varaible
+    // si = amount * time * rate/100;
+
+    int amount  = 1000 ,time  =2 ,rate = 4;
+    int si  = (amount * time * rate)/100;
+    System.out.println("The SI OF THE FOLLOWING IS : "+si);
+
+    //3.WAP TO print the area of perimeter of rectangle
+    int l = 10 , br =20;
+    int ar  = l * br;
+    int p  = 2*(l + br);
+    System.out.println("Area of rectangle:"+ar);
+    System.out.println("Perimeter of rectangle:"+p);
+
 
 
 
