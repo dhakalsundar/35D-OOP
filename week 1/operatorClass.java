@@ -35,6 +35,37 @@ public class operatorClass {
          System.out.println("Or operation uses ||" + (lExpression1 || lExpression2));
          System.out.println("Not operator uses!" + !lExpression1);
 
+         /* Unary operator */
+         int uNumber1 = 10;
+         uNumber1++; // meaning uNumber1 = uNumber1 + 1;
+         System.out.println("Unary for increament is ++" + uNumber1);
+         uNumber1--;
+         System.out.println("Unary for decrement is --" + uNumber1);
+
+         /* Ternary operator */
+         int tNumber1 = 10 , tNumber2 = 10;
+         boolean tExpression = tNumber1 == tNumber2;
+         /*
+          * one line if else, see the given example in if else
+          string output;
+          if(tExpression == true){
+            output = "True statement";
+          }else{
+            output = "False statement";
+          }
+          */
+          String output = tExpression ? "True Statement" : "False Statement";
+          /* Here we can assign a string out with one expression
+           * if expression is true it will return the value after the"?"
+           * if the expression is false it wil return the value after the":"
+           */
+          int numberOutput = tNumber1 < tNumber2 ? 10:20;
+          System.out.println(output);
+          System.out.println(numberOutput);
+
+
+
+
     }
     
 }
