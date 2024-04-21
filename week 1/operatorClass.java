@@ -84,9 +84,6 @@ public class operatorClass {
     System.out.println("Area of rectangle:"+ar);
     System.out.println("Perimeter of rectangle:"+p);
 
-
-
-
     }
     
 }
