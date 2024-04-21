@@ -69,6 +69,8 @@ public class operatorClass {
     int wVar =12;
     boolean expression = wVar >= 18;
     System.out.println(expression ? "True":"false");
+
+        
     //2.WAP to print simple interest from variable
     //Make 3 variable for amount ,time and rate and save the calculation into a varaible
     // si = amount * time * rate/100;
@@ -76,6 +78,7 @@ public class operatorClass {
     int amount  = 1000 ,time  =2 ,rate = 4;
     int si  = (amount * time * rate)/100;
     System.out.println("The SI OF THE FOLLOWING IS : "+si);
+        
 
     //3.WAP TO print the area of perimeter of rectangle
     int l = 10 , br =20;
