@@ -13,6 +13,15 @@ public class ForLoop {
         /* Make the loop table for this */
        
 
+        /* Nested loop */
+        for (int outer = 0; outer < 3; outer ++){
+            for ( int inner = 2; inner >= 0; inner --){
+                System.out.println("Inner" + inner);
+            }
+            System.out.println("Outer " + outer);
+        } 
+        
+
     }
 
     
