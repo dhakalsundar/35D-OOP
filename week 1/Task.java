@@ -16,6 +16,8 @@
          public class Task {
             public static void main(String[] args) {
                 int number = 10; 
+
+                
                 int max = 10; 
         
                 for (int i = 1; i <= max; i++) {
